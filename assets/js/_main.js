@@ -27,7 +27,7 @@ $(".close-about").click(function () {
 
 // Add lightbox class to all image links
 $("a[href$='.jpg'],a[href$='.jpeg'],a[href$='.JPG'],a[href$='.png'],a[href$='.gif']").addClass("image-popup");
-
+let password = "N0fr3Cggv1_L7EI9vHsFwPqd1M9ThSi";
 // Magnific-Popup options
 $(document).ready(function() {
   $('.image-popup').magnificPopup({
